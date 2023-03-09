@@ -1,0 +1,20 @@
+body {
+    margin: 20px;
+    text-align: center; /* center aligns all content */
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    margin: 0;
+    text-align: left; /* left aligns the heading */
+  }
+  header div {
+    text-align: right; /* right aligns the buttons */
+  }
+  header button + button {
+    margin-left: 10px; /* adds 10px of margin between buttons */
+  }
